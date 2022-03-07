@@ -1,0 +1,96 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+  height: 32px;
+  float: right;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+.box {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#photo {
+  border-radius: 50%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-clear {
+  clear: both;
+}
+
+#gapp:hover {
+  background-color: #ededed;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center
+}
+
+#search-box {
+  width: 600px;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid gray;
+  margin: auto;
+}
+
+#search-box:hover {
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(115, 115, 115, 0.29);
+  box-shadow: 0px 0px 9px 3px rgba(115, 115, 115, 0.29);
+}
+
+#search-input {
+  width: 100%;
+  height: 24px;
+  border: none;
+  outline: none;
+}
+
+#magnifying-area {
+  width: 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#search-area {
+  width: 80%;
+  padding-top: 10px;
+}
+
+#voice-area {
+  width: 10%;
+  padding-top: 10px;
+  text-align: right;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ededed;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 1px solid #a1a0a0;
+}
